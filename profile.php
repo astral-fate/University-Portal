@@ -6,7 +6,10 @@ $username = "root";
 $password = "";
 $dbname = "CollegeApplication";
 
+// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
@@ -14,8 +17,11 @@ if ($conn->connect_error) {
 // Check if user is logged in
 if (isset($_SESSION['user_id'])) {
     $user_id = $_SESSION['user_id'];
-    $sql = "SELECT * FROM users WHERE id = $user_id";
+
+    // Fetch user profile information from the view
+    $sql = "SELECT * FROM view_user_profile WHERE id = $user_id";
     $result = $conn->query($sql);
+
     if ($result->num_rows > 0) {
         $user_info = $result->fetch_assoc();
     } else {
