@@ -37,7 +37,7 @@ function calculate_checksum($file_path) {
 }
 
 $expected_checksum = "ad9993121bb94549b59f8a92bdc673da"; 
-$file_path = "confg.php"; 
+$file_path = "config.php"; 
 if (calculate_checksum($file_path) !== $expected_checksum) {
     echo "Critical files have been tampered with. Access denied."; 
     exit(); // Terminate script execution
