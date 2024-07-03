@@ -9,12 +9,12 @@
 
 ## Requirements
 
-Web Server: Apache using XAAMP.
-Database: MySQL using phpMyAdmin.
-Programming Languages: PHP, HTML, CSS, JavaScript.
-Libraries: jQuery (optional for enhanced UI interactions).
-Authentication: PHP sessions for user authentication.
-Validation: Server-side validation using PHP functions.
+- Web Server: Apache using XAAMP.
+- Database: MySQL using phpMyAdmin.
+- Programming Languages: PHP, HTML, CSS, JavaScript.
+- Libraries: jQuery (optional for enhanced UI interactions).
+- Authentication: PHP sessions for user authentication.
+- Validation: Server-side validation using PHP functions.
 
 ## Project Tools
 - Version Control: Git for version control.
