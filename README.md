@@ -36,8 +36,8 @@
 - Form validation to ensure all required fields are filled out correctly.
 - File upload functionality for documents like PDFs and images.
 
-#### Restricted Data Entry and Data Validation
-- Perform Data Validation
+#### - Perform Data Validation 
+
 - with Regular Expression
 ```
 function validatePhoneNumber($phone) {
@@ -56,6 +56,7 @@ function validateEmail($email) {
 ### Profile 
 - Displaying the information of each registrated user.
 
+### CURD operations
 
 
 ###  Code Protection Techniques
