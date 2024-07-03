@@ -23,6 +23,7 @@
 - Web Browser: Modern web browsers for testing and debugging.
 
 ## Core Features
+
 ### User Registration and Authentication:
 
 - Users can create accounts and log in using email and password.
@@ -34,6 +35,19 @@
 - Users can fill out and submit application forms with personal details and documents.
 - Form validation to ensure all required fields are filled out correctly.
 - File upload functionality for documents like PDFs and images.
-- Restricted Data Entry and Data Validation:
+
+#### Restricted Data Entry and Data Validation
+- Perform Data Validation
+  a. with Regular Expression 
+  b. without Regular Expression
+
+### Profile 
+- Displaying the information of each registrated user.
+
+
+
+###  Code Protection Techniques
+- Code Obfuscation
+- Anti-Debugging Techniques 
 
 
