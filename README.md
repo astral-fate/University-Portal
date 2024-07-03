@@ -38,8 +38,20 @@
 
 #### Restricted Data Entry and Data Validation
 - Perform Data Validation
-  a. with Regular Expression 
-  b. without Regular Expression
+- with Regular Expression
+```
+function validatePhoneNumber($phone) {
+    return preg_match('/^\d{10}$/', $phone); // Validates a 10 digit number
+}
+```
+- without Regular Expression
+
+```
+function validateEmail($email) {
+    return filter_var($email, FILTER_VALIDATE_EMAIL);
+}
+
+```
 
 ### Profile 
 - Displaying the information of each registrated user.
